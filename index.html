@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="FARZAM">
+        <title>Hotel</title>
+        <link rel="icon" href="https://logos-world.net/wp-content/uploads/2022/04/Hotels.com-Emblem.png">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Scheherazade+New:wght@400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+        <section>
+                <nav>
+                        <div id="logo">
+                                <img src="https://logos-world.net/wp-content/uploads/2022/04/Hotels.com-Emblem.png" alt="logo">
+                        </div>
+                        
+                        <input type="checkbox" name="burger" id="burger">
+                        <label for="burger" id="nav-burger-label">
+                                <i class="fa-solid fa-bars nav-icon"></i>
+                        </label>
+                        
+                        <div id="nav-text">
+                                <a href="#">
+                                        <i class="fa-solid fa-earth-americas nav-icon"></i>
+                                        language
+                                </a>
+                                <a href="#">support</a>
+                                <a href="#">sign in</a>
+                        </div>
+                </nav>
+        </section>
+        <section>
+                <main>
+                        <!-- main inputs -->
+                        <div class="container img-bg-text">
+                                <div>
+                                        <div class="InputContainer">
+                                                <input placeholder="To Where?" id="to-where" class="input" name="to-where" type="text"/>
+                                                <label class="labelforsearch" for="to-where">
+                                                        <i class="fa-solid fa-location-dot searchIcon"></i>
+                                                </label>
+                                        </div>
+                                </div>
+                                <div>
+                                        <div class="InputContainer">
+                                                <input id="date" class="input" name="date" type="date"/>
+                                                <label class="labelforsearch" for="date">
+                                                        <i class="fa-regular fa-calendar-days"></i>
+                                                </label>
+                                        </div>
+                                </div>
+                                <div>
+                                        <div class="InputContainer">
+                                                <input placeholder="Number of Adults"  id="number" class="input" name="number" type="number"/>
+                                                <label class="labelforsearch" for="number">
+                                                        <i class="fa-solid fa-user"></i>
+                                                </label>
+                                        </div>
+                                </div>
+                                <div>
+                                        <button class="btn"> 
+                                                <span>Search</span>
+                                        </button>
+                                </div>
+                        </div>
+                        <!-- accommodations -->
+                        <div>
+                                <div id="accommodation-container" class="pd">
+                                        <div class="title-img">
+                                                <div class="title">Discover your new favourite accommodation</div>
+                                                <div class="img">
+                                                        <img src="./img/download (2).png" alt="airplain" >
+                                                </div>
+                                        </div>
+                                        <div class="container-accommodation">
+                                                <div class="accommodation">
+                                                        <div class="accommodation-name">Vila</div>
+                                                        <img src="https://images.pexels.com/photos/5563472/pexels-photo-5563472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Vila">
+                                                </div>
+                                                <div class="accommodation">
+                                                        <div class="accommodation-name">Apartmant</div>
+                                                        <img src="https://images.pexels.com/photos/2467285/pexels-photo-2467285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Apartmant">
+                                                </div>
+                                                <div class="accommodation">
+                                                        <div class="accommodation-name">Hotel</div>
+                                                        <img src="https://images.pexels.com/photos/2096983/pexels-photo-2096983.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Hotel">
+                                                </div>
+                                                <div class="accommodation">
+                                                        <div class="accommodation-name">Shack</div>
+                                                        <img src="https://images.pexels.com/photos/6129991/pexels-photo-6129991.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Shack">
+                                                </div>
+                                                <div class="accommodation">
+                                                        <div class="accommodation-name">Holiday Vilage</div>
+                                                        <img src="https://images.pexels.com/photos/2417842/pexels-photo-2417842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Holiday Vilage">
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                        <!-- cards  -->
+                        <div class="pd">
+                                <div class="title-img of">
+                                        <div class="title">Recommended accommodations for you</div>
+                                        <div class="img">
+                                                <img src="./img/download (1).png" alt="airplain" >
+                                        </div>
+                                </div>
+                                <div id="container-cards">
+                                        <div class="cards">
+                                                <div class="cards-img">
+                                                        <input type="radio" name="hotel1" id="img1-hotel1" checked>
+                                                        <input type="radio" name="hotel1" id="img2-hotel1">
+                                                        <input type="radio" name="hotel1" id="img3-hotel1">
+                                                </div>
+                                                <div class="cards-text">
+                                                        <h3>Chinzanso</h3>
+                                                        <p>Tokyo</p>
+                                                        <div class="container-star">
+                                                                <div class="star"></div>
+                                                                <div class="star"></div>
+                                                                <div class="star"></div>
+                                                                <div class="star"></div>
+                                                                <div class="star"></div>
+                                                        </div>
+                                                        <p class="dr">$ 220</p>
+                                                </div>
+                                        </div>
+                                        <div class="cards">
+                                                <div class="cards-img">
+                                                        <input type="radio" name="hotel2" id="img1-hotel2" checked>
+                                                        <input type="radio" name="hotel2" id="img2-hotel2">
+                                                        <input type="radio" name="hotel2" id="img3-hotel2">
+                                                </div>
+                                                <div class="cards-text">
+                                                        <h3>Parnas Hotel Jeju</h3>
+                                                        <p>Seogwipo</p>
+                                                        <div class="container-star">
+                                                                <div class="star"></div>
+                                                                <div class="star"></div>
+                                                                <div class="star"></div>
+                                                                <div class="star"></div>
+                                                                <div class="star"></div>
+                                                        </div>
+                                                        <p class="dr">$ 270</p>
+                                                </div>
+                                        </div>
+                                        <div class="cards">
+                                                <div class="cards-img">
+                                                        <input type="radio" name="hotel4" id="img1-hotel4" checked>
+                                                        <input type="radio" name="hotel4" id="img2-hotel4">
+                                                        <input type="radio" name="hotel4" id="img3-hotel4">
+                                                </div>
+                                                <div class="cards-text">
+                                                        <h3>Palmaïa-The House</h3>
+                                                        <p>Mexico</p>
+                                                        <div class="container-star">
+                                                                <div class="star"></div>
+                                                                <div class="star"></div>
+                                                                <div class="star"></div>
+                                                                <div class="star"></div>
+                                                                <div class="star"></div>
+                                                        </div>
+                                                        <p class="dr">$ 320</p>
+                                                </div>
+                                        </div>
+                                        <div class="cards">
+                                                <div class="cards-img">
+                                                        <input type="radio" name="hotel3" id="img1-hotel3" checked>
+                                                        <input type="radio" name="hotel3" id="img2-hotel3">
+                                                        <input type="radio" name="hotel3" id="img3-hotel3">
+                                                </div>
+                                                <div class="cards-text">
+                                                        <h3>Wynn</h3>
+                                                        <p>Las Vegas</p>
+                                                        <div class="container-star">
+                                                                <div class="star"></div>
+                                                                <div class="star"></div>
+                                                                <div class="star"></div>
+                                                                <div class="star"></div>
+                                                                <div class="star"></div>
+                                                        </div>
+                                                        <p class="dr">$ 350</p>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </main>
+        </section>
+        <section>
+                <footer>
+                        <div class="footer">
+                                <div class="contain">
+                                <div class="col">
+                                        <h1>Company</h1>
+                                        <ul>
+                                                <li>About</li>
+                                                <li>Mission</li>
+                                                <li>Services</li>
+                                                <li>Social</li>
+                                                <li>Get in touch</li>
+                                        </ul>
+                                </div>
+                                <div class="col">
+                                        <h1>Products</h1>
+                                        <ul>
+                                                <li>About</li>
+                                                <li>Mission</li>
+                                                <li>Services</li>
+                                                <li>Social</li>
+                                                <li>Get in touch</li>
+                                        </ul>
+                                </div>
+                                <div class="col">
+                                        <h1>Accounts</h1>
+                                        <ul>
+                                                <li>About</li>
+                                                <li>Mission</li>
+                                                <li>Services</li>
+                                                <li>Social</li>
+                                                <li>Get in touch</li>
+                                        </ul>
+                                </div>
+                                <div class="col">
+                                        <h1>Resources</h1>
+                                        <ul>
+                                                <li>Webmail</li>
+                                                <li>Redeem code</li>
+                                                <li>WHOIS lookup</li>
+                                                <li>Site map</li>
+                                                <li>Web templates</li>
+                                                <li>Email templates</li>
+                                        </ul>
+                                </div>
+                                <div class="col">
+                                        <h1>Support</h1>
+                                        <ul>
+                                                <li>Contact us</li>
+                                                <li>Web chat</li>
+                                                <li>Open ticket</li>
+                                        </ul>
+                                </div>
+                                <div class="col social">
+                                        <h1>Social</h1>
+                                        <ul>
+                                                <li class="footer-icon"><i class="fa-brands fa-x-twitter"></i></li>
+                                                <li class="footer-icon"><i class="fa-brands fa-instagram"></i></li>
+                                                <li class="footer-icon"><i class="fa-brands fa-youtube"></i></li>
+                                        </ul>
+                                </div>
+                              <div class="clearfix"></div>
+                        </div>
+                        </div>
+                </footer>
+        </section>
+
+        <script src="https://kit.fontawesome.com/c268ce85f2.js" crossorigin="anonymous"></script>
+</body>
+</html>
