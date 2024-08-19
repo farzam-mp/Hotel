@@ -2,4 +2,4 @@
 
 ---
 ## Demo
-[click to demo](https://farzam-mp.github.io/Hotel/)
+[click to demo](https://farzam-mp.github.io/Hotel/) 👈
